@@ -1,0 +1,30 @@
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias c="clear"
+alias e="exit"
+
+# Lisitng Files
+alias l="ls -lhF"
+alias ll="ls -lAhF"
+
+# Editors
+alias nv="nvim"
+
+# tmux
+alias tm="tmux"
+alias tml="tmux ls"
+
+# Package Management
+alias update="sudo dnf upgrade --refresh"
+alias install="sudo dnf install"
+alias remove="sudo dnf remove"
+alias search="dnf search"
+alias autoremove="sudo dnf autoremove"
+alias clean="sudo dnf clean all"
+
+# Misc
+alias reload="source ~/.zshrc"
+alias ipinfo="ip -c a"
+
