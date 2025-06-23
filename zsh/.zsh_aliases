@@ -16,6 +16,9 @@ alias nv="nvim"
 alias tm="tmux"
 alias tml="tmux ls"
 
+# htop
+alias ht="htop"
+
 # Package Management
 alias update="sudo dnf upgrade --refresh"
 alias install="sudo dnf install"

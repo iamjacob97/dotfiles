@@ -8,6 +8,8 @@ bind("n", "<leader>Q", "<CMD>q!<CR>", "Discard changes and quit")
 bind("n", "<leader>q", "<CMD>q<CR>", "Quit")
 bind("n", "<leader>w", "<CMD>w<CR>", "Write")
 bind("n", "<leader>x", "<CMD>x<CR>", "Save and quit")
+bind({ "n", "v" }, "<leader>y", '"+y', "Yank to system clipboard")
+bind("n", "<leader>p", '"+p', "Paste from system clipboard")
 
 -- Highlighting
 bind("n", "<Esc>", "<CMD>noh<CR>", "Clear search highlights")

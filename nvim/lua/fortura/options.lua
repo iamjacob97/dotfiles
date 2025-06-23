@@ -14,11 +14,6 @@ option.cursorline = true
 option.scrolloff = 3
 option.confirm = true
 
--- Clipboard
-vim.schedule(function()
-	option.clipboard = "unnamedplus"
-end)
-
 -- Tabs & Indentation
 option.expandtab = true
 option.tabstop = 2

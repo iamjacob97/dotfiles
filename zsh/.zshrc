@@ -61,11 +61,6 @@ if [[ ! -f $UPDATE_MARKER || $(( $(date +%s) - $(< $UPDATE_MARKER) )) -gt 753159
   zinit update --all
   zinit delete --clean
 
-  if [ -d "$HOME/.tmux/plugins/tpm" ]; then
-    echo "tpm updating..."
-    git -C "$HOME/.tmux/plugins/tpm" pull --ff-only
-  fi
-
   date +%s > $UPDATE_MARKER
   echo "Done!"
 fi
